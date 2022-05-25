@@ -46,6 +46,12 @@ img {
   border-radius: 25px;
 }
 
+img:hover {
+  transform: scale(1.05);
+  transition: all ease;
+  border-radius: 25px;
+}
+
 .smoothie-image {
   width: auto;
   max-height: 300px;
