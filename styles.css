@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #c5d5cb;
+  background: linear-gradient(0.25turn, #3fa644, #ebf8e1, #f69d3c);
   width: 600px;
   margin: 0 auto;
 }
@@ -43,6 +43,7 @@ img {
   max-width: 50%;
   display: block;
   margin: 1.5rem auto;
+  border-radius: 25px;
 }
 
 .smoothie-image {
