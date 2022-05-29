@@ -4,13 +4,15 @@
 
 body {
   background: linear-gradient(0.25turn, #3fa644, #ebf8e1, #f69d3c);
-  width: 600px;
+  /* width: 600px; */
   margin: 0 auto;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 1.5rem;
+  margin-top: 10px;
+  font-size: 45px;
 }
 
 h2 {
@@ -21,6 +23,10 @@ h2 {
 p {
   margin: 0.5rem 0;
   text-align: center;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 ul {
@@ -38,9 +44,10 @@ ol {
 }
 
 img {
-  width: 100%;
-  height: auto;
-  max-width: 50%;
+  /* width: 100%; */
+  /* height: auto; */
+  max-width: 70%;
+
   display: block;
   margin: 1.5rem auto;
   border-radius: 25px;
@@ -69,6 +76,7 @@ a {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
+  font-size: 24px;
 }
 
 a:before {
