@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: linear-gradient(0.25turn, #3fa644, #ebf8e1, #f69d3c);
+  background: linear-gradient(0.25turn, #90e0ef, #ebf8e1, #90e0ef);
   /* width: 600px; */
   margin: 0 auto;
+  font-family: "Cinzel", serif;
 }
 
 h1 {
