@@ -27,6 +27,8 @@ p {
 
 li {
   margin-bottom: 10px;
+  list-style-position: inside;
+  text-align: center;
 }
 
 ul {
@@ -97,4 +99,11 @@ a:hover {
 
 a:hover::before {
   width: 100%;
+}
+
+/* Mobile Styles */
+@media only screen and (min-width: 700px) {
+  .hashbrown {
+    max-height: 370px;
+  }
 }
